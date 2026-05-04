@@ -1,0 +1,48 @@
+body {
+background-image: url(http://127.0.0.1:5500/Resources/1.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+h1{ font-size: 100px;
+    text-align: center;
+    margin-top: 15%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-con{
+      height: 200px;
+  position: relative;
+
+}
+
+button{
+    background-color: coral;
+    border: 1px;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    background-color:rgb(252, 86, 26);
+    color: white;
+    transition-duration: 0.3s;
+}
+
+button:active{
+    background-color: #a4133c;
+    color: #1a1a1a;
+
+}
+
+.menu-btn{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
