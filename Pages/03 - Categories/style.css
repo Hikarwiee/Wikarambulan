@@ -1,0 +1,55 @@
+body {
+background-image: url(http://127.0.0.1:5500/Resources/3.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+h1{ font-size: 60px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 70px;
+}
+
+.google{
+width: 25%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.search{
+width: 40%;
+margin-top: -10%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.choices{   
+display: flex;
+gap: 30px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.category-name{
+    display: flex;
+gap: 140px;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.category{
+    width: 150px;
+    border: 1px solid #1a1a1a;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s ease;
+}
+
+.category:hover{
+    transform: scale(1.1);
+}

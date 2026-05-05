@@ -11,12 +11,6 @@ h1{ font-size: 100px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.btn-con{
-      height: 200px;
-  position: relative;
-
-}
-
 button{
     background-color: coral;
     border: 1px;
@@ -41,8 +35,8 @@ button:active{
 }
 
 .menu-btn{
-   display: flex;
+    display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column
+  flex-direction: column;
 }
