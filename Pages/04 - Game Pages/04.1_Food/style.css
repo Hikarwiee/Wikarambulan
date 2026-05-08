@@ -1,0 +1,13 @@
+body {
+background-image: url(http://127.0.0.1:5500/Resources/9.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0; 
+height: 100%;
+} 
+
+section{
+    height: 100vh;
+}
