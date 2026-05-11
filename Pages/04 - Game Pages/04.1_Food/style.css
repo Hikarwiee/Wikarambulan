@@ -1,13 +1,47 @@
 body {
-background-image: url(http://127.0.0.1:5500/Resources/9.png);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-margin: 0; 
-height: 100%;
+    background-image: url(http://127.0.0.1:5500/Resources/9.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; 
+    height: 100%;
 } 
 
+
+h1{ font-size: 15vh;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;;
+    color: white;
+}
+
+h2 {font-size: 20vh;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: beige;
+}
+
+div{display: flex;
+    justify-content: center;
+    align-items: center;}
+
+button{ background-color: rgb(92, 91, 91);
+    border: 1px solid black;
+    font-size: 3vh;
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+    width: 30vh;
+    font-family: "Numans", sans-serif;
+    color: beige;
+} 
+  
 section{
     height: 100vh;
 }
+
+.natatangi {
+font-size: 15vh;
+}
+
+header{position:static;}
